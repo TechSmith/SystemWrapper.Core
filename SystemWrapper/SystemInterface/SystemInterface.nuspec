@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>system-interface.core-tsc-package</id>
+    <version>$Version$</version>
+    <authors>Jozef Izso, Yann Brulhart</authors>
+    <owners>Jozef Izso</owners>
+    <licenseUrl>https://github.com/mperdeck/SystemWrapper.Core/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/mperdeck/SystemWrapper.Core</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Set of interfaces of .NET Core system APIs that allows interaction mocking.</description>
+  </metadata>
+  <files>
+    <file src="bin\$Configuration$\netstandard2.0\SystemInterface.*" target="lib\netstandard2.0\" />
+    <file src="**\*.cs" target="src\SystemInterface\" exclude="obj\**;bin\**" />
+  </files>
+</package>
